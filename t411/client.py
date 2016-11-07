@@ -5,7 +5,7 @@ from flask import Response
 # -----------------------------------------------------------------------------
 
 class T411Client(object):
-    HOST = "http://api.t411.me/"
+    HOST = "http://api.t411.ch/"
     REQUEST_TIMEOUT = 5
 
     def __init__(self, username, password):
